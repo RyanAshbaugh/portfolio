@@ -6,6 +6,8 @@ import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
+  const [active, setActive] = useState("");
+
   return (
     <nav
       className={`${styles.paddindX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -19,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="ryan-favicon-white" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer">Ryan <span>| asdfasdf</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
