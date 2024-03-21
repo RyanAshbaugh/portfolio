@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-{/* This is a JSX comment */}
-
-{/*import { ComputerCanvas } from './canvas';*/}
+import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -13,7 +11,14 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Ryan</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            I'm a computer vision engineer with an interest in <br className="sm:block hidden"/>3D reconstruction, localization, and mapping.
+          </p>
+        </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
