@@ -9,7 +9,7 @@ const Computers = () => {
 
   return (
     <mesh>
-      <ambientLight intensity={3} />
+      <ambientLight intensity={0.5} />
       <hemisphereLight
         intensity={0.15}
         groundColor="black"
@@ -20,7 +20,7 @@ const Computers = () => {
         position={[-20, 50, 10]}
         angle={0.4}
         penumbra={1}
-        intensity={4}
+        intensity={5}
         castShadow
         shadow-mapSize-width={1024}
         decay={0}
