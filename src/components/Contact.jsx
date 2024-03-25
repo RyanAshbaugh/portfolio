@@ -46,6 +46,29 @@ const Contact = () => {
             >
             </input>
           </label>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Your Email</span>
+            <input
+              type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
+              placeholder="What's your email?"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            >
+            </input>
+          </label>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Your Message</span>
+            <input
+              name="message"
+              value={form.message}
+              onChange={handleChange}
+              placeholder="Your message ..."
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+            >
+            </input>
+          </label>
 
         </form>
       </motion.div>
