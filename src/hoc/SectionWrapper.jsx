@@ -6,7 +6,7 @@ import { staggerContainer } from '../utils/motion';
 const SectionWrapper = (Component, idName) =>
 function HOC() {
     return (
-        <div style={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+        // <div style={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
             <motion.section
                 variants={staggerContainer()}
                 initial="hidden"
@@ -19,7 +19,7 @@ function HOC() {
                 </span>
                 <Component />
             </motion.section>
-        </div>
+        // </div>
     )
 }
 
