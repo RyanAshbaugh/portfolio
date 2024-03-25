@@ -59,4 +59,4 @@ const Feedbacks = () => {
   )
 }
 
-export default SectionWrapper(Feedbacks, { centered: true });
+export default SectionWrapper(Feedbacks, "");
