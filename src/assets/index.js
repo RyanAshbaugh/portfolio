@@ -21,6 +21,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 
+import linux from "./tech/linux.png"
+import python from "./tech/python.png"
+import cpp from "./tech/cpp.png"
+import matlab from "./tech/matlab.png"
+import ros from "./tech/ros.png"
+import sql from "./tech/sql.png"
+import pytorch from "./tech/pytorch.png"
+import opencv from "./tech/opencv.png"
+import tf from "./tech/tf.png"
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -55,6 +65,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  linux,
+  python,
+  cpp,
+  matlab,
+  ros,
+  sql,
+  pytorch,
+  opencv,
+  tf,
   meta,
   shopify,
   starbucks,

@@ -26,6 +26,15 @@ import {
     zf,
     msu,
     sae,
+    linux,
+    python,
+    cpp,
+    matlab,
+    pytorch,
+    opencv,
+    ros,
+    sql,
+    tf,
   } from "../assets";
   
   export const navLinks = [
@@ -72,6 +81,18 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "MATLAB",
+      icon: matlab,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -84,16 +105,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -104,26 +117,46 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+  ];
+
+  // tools and frameworks
+  const tools = [
+    {
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "Linux",
+      icon: linux,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "ROS",
+      icon: ros,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "OpenCV",
+      icon: opencv,
+    },
+    {
+      name: "TensorFlow",
+      icon: tf,
     },
     {
       name: "docker",
       icon: docker,
     },
-  ];
+  ]
   
   const experiences = [
     {
@@ -266,4 +299,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, tools, experiences, testimonials, projects };
