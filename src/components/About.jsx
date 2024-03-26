@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-        I am a computer vision engineer with an interest in 3D reconstruction, localization, and mapping.
+        I am a computer vision engineer with a main interest in 3D vision and machine learning. Some of the key topics I'm interested in are listed below.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

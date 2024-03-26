@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    zf,
+    msu,
+    sae,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +45,27 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Computer Vision",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Machine Learning",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Image & Signal Processing",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "3D Reconstruction & Visualization",
+      icon: creator,
+    },
+    {
+      title: "Localization & Mapping",
+      icon: creator,
+    },
+    {
+      title: "Pose Estimation & Tracking",
       icon: creator,
     },
   ];
@@ -116,55 +127,48 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Computer Engineer Intern",
+      company_name: "ZF",
+      icon: zf,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2017 - Dec 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and implemented a lens focus shift detector with C++ for automotive camera testing.",
+        "Integrated hardware and software components to ensure ISO 26262 safety requirements met.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Perception Software Team Lead",
+      company_name: "SAE AutoDrive Challenge",
+      icon: sae,
+      iconBg: "#E6DEDD",
+      date: "May 2017 - Jan 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "International student competition to design and build autonomous capabilities into a Chevy Bolt.",
+        "Worked as the software engineer team leader and built perception, localization and motion planning software with C++ and ROS"
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Graduate Research Assistant",
+      company_name: "Michigan State University",
+      icon: msu,
+      iconBg: "#E6DEDD",
+      date: "May 2018 - Dec 2023",
+      points: [
+        "Developed machine learning training and evaluation pipelines with PyTorch for gait, 3D body, and multi-biometric fusion models."
+      ],
+    },
+    {
+      title: "Research Scientist Ph.D. Intern",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed tool for improving the magnetometer placement in head mounted and wearable devices.",
+        "Used object-oriented programming with PyQt in Python to build an automated simulation pipeline which handles running simulations, saving and processing data, and visualizing data.",
+        "Performed electromagnetic simulations to assess magnetometer sensor performance in devices.",
+        "Learned how magnetometer, GPS, and IMU sensor fusion and processing works to estimate state.",
       ],
     },
   ];
