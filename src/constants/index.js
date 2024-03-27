@@ -213,31 +213,43 @@ import {
     },
   ];
   
-  const testimonials = [
+  const papers = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      citation:
+        "Ashbaugh, R. C., Udpa, L., Israeli, R. R., Gilad, A. A., & Pelled, G. (2021). Bioelectromagnetic platform for cell, tissue, and in vivo stimulation. Biosensors, 11(8), 248.",
+      link: "https://www.mdpi.com/2079-6374/11/8/248"
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      citation:
+        "Liu, F., Ashbaugh, R., Chimitt, N., Hassan, N., Hassani, A., Jaiswal, A., ... & Liu, X. (2024). Farsight: A physics-driven whole-body biometric system at large distance and altitude. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (pp. 6227-6236).",
+      link: "https://openaccess.thecvf.com/content/WACV2024/papers/Liu_FarSight_A_Physics-Driven_Whole-Body_Biometric_System_at_Large_Distance_and_WACV_2024_paper.pdf"
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      citation:
+        "Cywiak, C., Ashbaugh, R. C., Metto, A. C., Udpa, L., Qian, C., Gilad, A. A., ... & Pelled, G. (2020). Non-invasive neuromodulation using rTMS and the electromagnetic-perceptive gene (EPG) facilitates plasticity after nerve injury. Brain stimulation, 13(6), 1774-1783.",
+      link: "https://www.sciencedirect.com/science/article/pii/S1935861X20302734"
     },
+    {
+      citation:
+        "Hunt, R. D., Ashbaugh, R. C., Reimers, M., Udpa, L., Saldana De Jimenez, G., Moore, M., ... & Pelled, G. (2021). Swimming direction of the glass catfish is responsive to magnetic stimulation. Plos one, 16(3), e0248141.",
+      link: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248141"
+    },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
@@ -298,4 +310,4 @@ import {
     },
   ];
   
-  export { services, technologies, tools, experiences, testimonials, projects };
+  export { services, technologies, tools, experiences, papers, projects };
