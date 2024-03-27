@@ -19,8 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    stim_controller,
     tripguide,
     threejs,
     zf,
@@ -35,6 +34,10 @@ import {
     ros,
     sql,
     tf,
+    pose_and_track,
+    portfolio,
+    arduino,
+    welldetect,
   } from "../assets";
   
   export const navLinks = [
@@ -75,7 +78,7 @@ import {
     },
     {
       title: "Pose Estimation & Tracking",
-      icon: creator,
+      icon: pose_and_track,
     },
   ];
   
@@ -156,6 +159,10 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "arduino",
+      icon: arduino,
+    },
   ]
   
   const experiences = [
@@ -235,16 +242,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Check out the code for the personal portfolio you're looking at now. Utilizes Three.js and React to create various 3D effects, animations, and display models of 3D scenes and objects.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
@@ -252,50 +259,42 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/RyanAshbaugh/portfolio",
     },
     {
-      name: "Job IT",
+      name: "Electromagnetic Stimulation Coils and Controller",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed and built a system to stimulate biological samples with magnetic fields using a variety of purpose built electromagnetic coils and a stimulation controller, along with a software interface to control the system.",
       tags: [
         {
-          name: "react",
+          name: "matlab",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "arduino",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: stim_controller,
+      source_code_link: "https://github.com/RyanAshbaugh/stimulation-controller"
     },
     {
-      name: "Trip Guide",
+      name: "Automated Detection and Analysis of Wells in Multi-Well Plates",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Tool for automatically detecting the wells of a multi-well plate, specifically in an IVIS imaging system, and analyzing the fluorescence and luminescence data from the wells.",
       tags: [
         {
-          name: "nextjs",
+          name: "matlab",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: welldetect,
+      source_code_link: "https://github.com/RyanAshbaugh/IVIS-Fluorescence-Luminescence-Analysis"
     },
   ];
   

@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import pose_and_track from "./pose-and-tracking.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,6 +31,7 @@ import sql from "./tech/sql.png"
 import pytorch from "./tech/pytorch.png"
 import opencv from "./tech/opencv.png"
 import tf from "./tech/tf.png"
+import arduino from "./tech/arduino.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,8 +41,9 @@ import zf from "./company/zf.png";
 import msu from "./company/msu.png";
 import sae from "./company/sae.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import portfolio from "./portfolio.png";
+import welldetect from "./well-detection.png";
+import stim_controller from "./stim-controller.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -78,10 +81,13 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
   tripguide,
   zf,
   msu,
   sae,
+  pose_and_track,
+  portfolio,
+  arduino,
+  welldetect,
+  stim_controller,
 };
